@@ -193,7 +193,7 @@ Options:
                    By default this is -1, which will expand all.
 
   -type=plan       Type of graph to output. Can be: plan, plan-destroy, apply,
-                   validate, input, refresh.
+                   validate, refresh.
 
 `
 	return strings.TrimSpace(helpText)
